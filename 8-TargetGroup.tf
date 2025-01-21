@@ -1,8 +1,8 @@
 resource "aws_lb_target_group" "tokyo_tg" {
-  name     = "tokyo-target-group"
-  port     = 80
-  protocol = "HTTP"
-  vpc_id   = aws_vpc.tokyovpc.id
+  name        = "tokyo-target-group"
+  port        = 80
+  protocol    = "HTTP"
+  vpc_id      = aws_vpc.tokyovpc.id
   target_type = "instance"
 
   health_check {
@@ -17,7 +17,7 @@ resource "aws_lb_target_group" "tokyo_tg" {
   }
 
   tags = {
-    Name    = "TokyoTargetGroup"
+    Name = "TokyoTargetGroup"
   }
 }
 

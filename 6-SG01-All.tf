@@ -44,7 +44,7 @@ resource "aws_security_group" "TG01-SG01-tokyo" {
   }
 
   tags = {
-    Name    = "TG01-SG01-tokyo"
+    Name = "TG01-SG01-tokyo"
   }
 
 }
@@ -126,7 +126,7 @@ resource "aws_security_group" "Syslog-SG-tokyo" {
   }
 
   tags = {
-    Name    = "Syslog-SG-tokyo"
+    Name = "Syslog-SG-tokyo"
   }
 
 }
@@ -170,7 +170,7 @@ resource "aws_security_group" "AuroraDB-SG" {
   }
 
   tags = {
-    Name    = "AuroraDB-SG-tokyo"
+    Name = "AuroraDB-SG-tokyo"
   }
 
 }

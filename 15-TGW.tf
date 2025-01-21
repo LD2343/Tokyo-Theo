@@ -1,9 +1,9 @@
 #Transit Gateway for Tokyo Region
 resource "aws_ec2_transit_gateway" "tokyo_TGW" {
-    description = "tokyo-TGW"
-    tags = {
-      Name = "tokyo-TGW"
-    }
+  description = "tokyo-TGW"
+  tags = {
+    Name = "tokyo-TGW"
+  }
 }
 
 #Transit Gateway Attachment to Tokyo VPC
@@ -16,7 +16,7 @@ resource "aws_ec2_transit_gateway_vpc_attachment" "tokyovpc_attachment" {
 
   vpc_id = aws_vpc.tokyovpc.id
 
- 
+
   tags = {
     Name = "tokyovpc_attachment"
   }

@@ -7,7 +7,7 @@ resource "aws_subnet" "public-sn-tokyo-1a-01" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name    = "public-sn-tokyo-1a-01"
+    Name = "public-sn-tokyo-1a-01"
   }
 }
 
@@ -41,7 +41,7 @@ resource "aws_subnet" "private-sn-tokyo-1c-01" {
   availability_zone = "ap-northeast-1c"
 
   tags = {
-    Name    = "private-sn-tokyo-1c-01"
+    Name = "private-sn-tokyo-1c-01"
   }
 }
 
@@ -51,7 +51,7 @@ resource "aws_subnet" "private-sn-tokyo-1c-02" {
   availability_zone = "ap-northeast-1c"
 
   tags = {
-    Name    = "private-sn-tokyo-1c-02"
+    Name = "private-sn-tokyo-1c-02"
   }
 }
 
@@ -61,7 +61,7 @@ resource "aws_subnet" "private-sn-tokyo-1d-01" {
   availability_zone = "ap-northeast-1d"
 
   tags = {
-    Name    = "private-sn-tokyo-1d-01"
+    Name = "private-sn-tokyo-1d-01"
   }
 }
 
@@ -72,6 +72,6 @@ resource "aws_subnet" "private-sn-tokyo-1d-02" {
   availability_zone = "ap-northeast-1d"
 
   tags = {
-    Name    = "private-sn-tokyo-1d-02"
+    Name = "private-sn-tokyo-1d-02"
   }
 }

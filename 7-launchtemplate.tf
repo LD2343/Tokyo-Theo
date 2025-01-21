@@ -1,6 +1,6 @@
 resource "aws_launch_template" "tokyo_LT" {
   name_prefix   = "tokyo_LT"
-  image_id      = "ami-0ab02459752898a60"  
+  image_id      = "ami-0ab02459752898a60"
   instance_type = "t2.micro"
 
   key_name = "ToykoLinux"
@@ -57,7 +57,7 @@ resource "aws_launch_template" "tokyo_LT" {
   tag_specifications {
     resource_type = "instance"
     tags = {
-      Name    = "tokyo_LT"
+      Name = "tokyo_LT"
     }
   }
 
